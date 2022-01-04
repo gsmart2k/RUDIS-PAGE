@@ -197,7 +197,7 @@ a{
     justify-content:flex-end;
     align-items: center;
     background:#210101;
-    height:256em;
+    height:260em;
     width:100vw;
     color:#fff;
 }
@@ -654,6 +654,9 @@ a{
 .logo-big{
     width:10em;
 }
+.ham{
+    display:none;
+ }
 .logo{
     width:25%
 }
