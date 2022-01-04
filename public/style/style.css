@@ -4,7 +4,26 @@
     box-sizing: border-box;
     font-family: Eras ITC;
 }
-
+.all-container{
+    display:flex;
+    height:100vh;
+    width:100vh;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.loader{
+    width:20%;
+    animation: rotate 1s ease-in;
+}
+@keyframes rotate{
+    from{
+    transform: rotate(0deg)
+}
+    to{
+    transform: rotate(360deg)
+    }
+}
 .hero-section{
     display: flex;
     flex-direction: column;
@@ -552,7 +571,7 @@ a{
     /* margin: 0 0 4em 0; */
 }
 .phase-3{
-    margin: 5em 0 0 0;
+    margin: 2em 0 0 0;
 }
 .roadmap-head-text{
     display:flex;
