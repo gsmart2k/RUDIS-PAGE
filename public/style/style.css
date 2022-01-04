@@ -654,6 +654,9 @@ a{
 .logo-big{
     width:10em;
 }
+.ham{
+    display:none;
+ }
 .logo{
     width:25%
 }
