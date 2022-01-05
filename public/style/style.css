@@ -54,6 +54,7 @@
     background:#210101;
     padding:1em;
     z-index: 3443434;
+    min-width:100vw;
     color:#fff !important;
 }
 a{
