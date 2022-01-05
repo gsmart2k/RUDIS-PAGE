@@ -116,7 +116,7 @@ a{
 .hs{
     display:flex;
     flex-direction: column;
-    background:#FFB300;
+    background:#a57505;
     justify-content: center;
     align-items:center;
     padding:2em 0;
@@ -125,7 +125,7 @@ a{
 }
 .btn{
     padding:.5em 1em;
-    color:#FFB300 !important;
+    color:#a57505 !important;
 }
 
 .nav-links > p {
@@ -139,7 +139,7 @@ a{
     color:#fff;
 }
 .btn-a{
-    color:#FFB300 !important;
+    color:#a57505 !important;
 }
 .sect1{
     display:flex;
@@ -202,13 +202,13 @@ a{
     color:#fff;
 }
 .a-2{
-    color:#FFB300;
+    color:#a57505;
 }
 .btn-2{
     background: #fff;
     margin:1em;
     padding:1em 3em;
-    color:#FFB300 !important;
+    color:#a57505 !important;
 }
 .second-sect{
     display:flex;
@@ -225,7 +225,7 @@ a{
     color:#fff;
     font-weight: bolder;
     font-size: .8em;
-    margin:0 0 1em 0;
+    margin:2em 0 1em 0;
 }
 .swords{
     display:flex;
@@ -235,6 +235,8 @@ a{
 }
 .swords > img{
     width:90%;
+    justify-self:center;
+    align-self:center;
     margin:.5em;
 }
 .cards{
@@ -290,10 +292,19 @@ a{
     align-self: flex-end;
 }
 .first{
-    margin:2em 0 0 0;
+    margin:2em 0 0 0 !important;
+}
+ul{
+    list-style-type:circle;
 }
 .list{
     display:block;
+    text-align:center;
+    margin:.5em 0;
+    list-style-type:circle;
+}
+.last{
+    margin:0 0 1em 0;
 }
 
 .vision-image{
@@ -358,7 +369,7 @@ a{
     color:#000;
 }
 .vision-div{
-    background:#FFB300;
+    background:#a57505;
     width:35%;
     padding:1em;
     display:flex;
@@ -404,12 +415,12 @@ a{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background:#FFB300;
+    background:#a57505;
     margin:.5em;
     color:#000;
     padding:1em;
     width:100%;
-    height: 25em;
+    height: 30em;
 }
 .cards-color{
     color:#fff !important;
@@ -422,6 +433,7 @@ a{
     text-align: center;
     line-height:1.5em;
     color:#000;
+    font-size:1.3em;
 }
 .fourth-sect{
     display:flex;
@@ -441,43 +453,52 @@ a{
 }
 .buy-btn{
     padding:1em;
-    background:#000;
+    background:#a57505;
     margin:2em 0 0 0;
     outline: none;
     border:none;
     color:#fff;
     font-size: 1.2em;
+    animation: grow ease-in .2s alternate infinite;
+}
+@keyframes grow{
+    from{
+        padding:1em 1em;
+    }
+    to{
+        padding:1em 1.2em;
+    }
 }
 .copy-box{
     display:flex;
     flex-direction:column;
     width:100%;
     margin:2em 0 0 0 ;
-    background:#000;
+    background:#fff;
     font-size: .8em;
 }
 .copy-box > p{
-    background:#fff;
+    background:#000;
     align-self: flex-end;
     padding:.3em;
     width:15%;
     cursor: pointer;
-    color:#000;
+    color:#fff;
 }
 .copy-box > input{
-    color:#fff;
+    color:#000;
     padding:.5em;
     width:100%;
     text-align: center;
     border:none;
     outline:none;
     font-size: 1.2em;
-    background:#000;
+    background:#fff;
 }
 .fifth-sect{
     display:flex;
     flex-direction: column;
-    background:#FFB300;
+    background:#a57505;
     padding:1em;
     color:#fff;
     width:100%;
@@ -552,8 +573,8 @@ a{
 .road-map-div{
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
-    align-items:center;
+    justify-content:center;
+    align-items:flex-start;
     height:150vh;
 }
 .road-map-div > p{
@@ -561,11 +582,17 @@ a{
 }
 .road-sect-1{
     padding:1em;
+    margin:0em 0 2em 0;
 }
 .phase{
     background:#fff;
     color:#000;
     padding:2em;
+}
+.phase-container{
+    display:flex;
+    flex-direction:column;
+
 }
 .phase-1{
     /* margin: 0 0 4em 0; */
@@ -595,9 +622,10 @@ a{
     display:flex;
     flex-direction:column;
     height:70%;
+    width:30%;
     justify-content:center;
     align-items: center;
-    margin:2em 0 0 0;
+    margin:0 1em 0 0;
 }
 .circle{
     display:flex;
@@ -606,8 +634,10 @@ a{
     background:#ac9561;
     padding:1em;
     width:auto;
+    /* font-size:.7em; */
     height:5em;
     border-radius: 50%;
+    text-align:center;
 }
 .line{
     width:.2em;
@@ -627,7 +657,9 @@ a{
     display:flex;
     justify-content:center;
     align-items: center;
+    text-align:center;
     padding:1em;
+    font-weight:bold;
 }
 /* The media query for the large screen here */
 
@@ -697,7 +729,7 @@ a{
 .hs{
     display:flex;
     flex-direction: row;
-    background:#FFB300;
+    background:#a57505;
     justify-content: center;
     align-items:center;
     padding:2em 0;
@@ -705,7 +737,7 @@ a{
 }
 .btn{
     padding:.5em 1em;
-    background:#FFB300;
+    background:#a57505;
     border-radius: 3em;
     color:#fff !important;
 }
@@ -784,12 +816,12 @@ a{
     color:#fff;
 }
 .a-2{
-    color:#FFB300;
+    color:#a57505;
 }
 .btn-2{
     background: #fff;
     padding:1em 3em;
-    color:#FFB300 !important;
+    color:#a57505 !important;
 }
 .second-sect{
     display:flex;
@@ -809,8 +841,8 @@ a{
 .swords{
     display:flex;
     flex-direction:row;
-    justify-self: flex-end;
-    align-self: flex-end;
+    justify-self: center;
+    align-self: center;
 }
 .swords > img{
     width:30%;
@@ -826,7 +858,8 @@ a{
 }
 .paragraph-n-carousel{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
+    text-align:center;
     justify-content:center;
     align-items: center;
     width:70%;
@@ -837,7 +870,7 @@ a{
     display:flex;
     flex-direction: row;
     width:45%;
-    align-self: flex-end;
+    align-self: center;
 }
 .carousel{
     justify-self: flex-start;
@@ -919,9 +952,10 @@ a{
     line-height: 1.5em;
     text-align: center;
     color:#000;
+    font-size:1.3em;
 }
 .vision-div{
-    background:#FFB300;
+    background:#a57505;
     width:35%;
     padding:1em;
     display:flex;
@@ -962,12 +996,12 @@ a{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background:#FFB300;
+    background:#a57505;
     margin:.5em;
     color:#000;
     padding:1em;
     width:30%;
-    height: 17em;
+    height: 25em;
 }
 .cards-color{
     color:#fff !important;
@@ -999,7 +1033,7 @@ a{
 }
 .buy-btn{
     padding:1em;
-    background:#000;
+    background:#a57505;
     margin:2em 0 0 0;
     outline: none;
     border:none;
@@ -1011,30 +1045,30 @@ a{
     flex-direction:column;
     width:50%;
     margin:2em 0 0 0 ;
-    background:#000;
+    background:#fff;
 }
 .copy-box > p{
-    background:#fff;
+    background:#000;
     align-self: flex-end;
     padding:.3em;
     width:10%;
     cursor: pointer;
-    color:#000;
+    color:#fff;
 }
 .copy-box > input{
-    color:#fff;
+    color:#000;
     padding:.5em;
     width:100%;
     text-align: center;
     border:none;
     outline:none;
-    font-size: 1.2em;
-    background:#000;
+    font-size: 1.5em;
+    background:#fff;
 }
 .fifth-sect{
     display:flex;
     flex-direction: column;
-    background:#FFB300;
+    background:#a57505;
     padding:3em;
     color:#fff;
 }
@@ -1101,11 +1135,18 @@ a{
 .bar3{
     width:100%;
 }
-.road-map-div{
+/* .road-map-div{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
     align-items:center;
+    height:150vh;
+} */
+.road-map-div{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:flex-start;
     height:150vh;
 }
 .road-map-div > p{
@@ -1189,5 +1230,6 @@ a{
     align-items: center;
     padding:1em;
     text-align: center;
+    font-weight:bold;
 }
 }
