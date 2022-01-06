@@ -1647,8 +1647,9 @@ and (-webkit-min-device-pixel-ratio :1)
         background:#000;
         align-self: flex-end;
         padding:.3em;
-        width:10%;
+        width:5%;
         cursor: pointer;
+        text-align:center;
         color:#fff;
     }
     .copy-box > input{
@@ -1846,8 +1847,7 @@ and (-webkit-min-device-pixel-ratio :1)
         justify-content:center;
         align-items: center;
         padding:1em;
-        text-align: center;
-        font-weight:bold;
+        font-weight:lighter;
     }
     
 }
