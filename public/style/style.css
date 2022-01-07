@@ -477,6 +477,7 @@ ul{
     margin:2em 0 0 0 ;
     background:#fff;
     font-size: .8em;
+    text-align:center;
 }
 .copy-box > p{
     background:#000;
@@ -639,6 +640,10 @@ ul{
     height:5em;
     border-radius: 50%;
     text-align:center;
+}
+.swordphase{
+    width:30%;
+    margin:1em 0;
 }
 .line{
     width:.2em;
@@ -1058,6 +1063,7 @@ a{
     width:50%;
     margin:2em 0 0 0 ;
     background:#fff;
+    text-align:center;
 }
 .copy-box > p{
     background:#000;
@@ -1213,6 +1219,10 @@ a{
     width:auto;
     height:5.5em;
     border-radius: 50%;
+}
+.swordphase{
+    width:10%;
+    margin:1em 0;
 }
 .line{
     width:.2em;
@@ -1642,6 +1652,7 @@ and (-webkit-min-device-pixel-ratio :1)
         width:80%;
         margin:2em 0 0 0 ;
         background:#fff;
+        text-align:center;
     }
     .copy-box > p{
         background:#000;
@@ -1800,6 +1811,10 @@ and (-webkit-min-device-pixel-ratio :1)
         width:auto;
         height:5em;
         border-radius: 50%;
+    }
+    .swordphase{
+        width:25%;
+        margin:1em 0;
     }
     /* <!-- <div class="third-sect-2">
     <h2>WHY CHOOSE RUDIS</h2>
