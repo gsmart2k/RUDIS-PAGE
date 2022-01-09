@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: Eras ITC;
 }
-
+.video{
+    width:100%;
+}
 @media only screen 
 and (min-device-width:320px)
 and (max-device-width:480px)
@@ -222,7 +224,7 @@ a{
     justify-content:flex-end;
     align-items: center;
     background:#210101;
-    height:268em;
+    height:auto;
     width:100vw;
     color:#fff;
 }
@@ -3059,6 +3061,7 @@ and (-webkit-min-device-pixel-ratio :1)
     }
     .video{
         margin:1em;
+        width:100%;
     }
     .footer{
         display:flex;
