@@ -1299,7 +1299,9 @@ and (min-device-width:769px )
 .hero-section{
     display: flex;
     flex-direction: column;
-    background:rgb(104, 130, 134);
+    /* background:rgb(104, 130, 134); */
+    /* background: linear-gradient(to right,#a57505, #f0b027 ); */
+    background: linear-gradient(to right,blue, #f0b027 );
     /* background-image: url("../../assets/bg.jpg"); */
     background-repeat: no-repeat;
     background-size: auto;
@@ -1307,6 +1309,27 @@ and (min-device-width:769px )
     /* height:100vh; */
     align-items:center;
     color:#fff;
+    animation: gradientchange 16s ease-in alternate infinite;
+}
+@keyframes gradientchange {
+    10%{
+        background: linear-gradient(to right,blue, #f0b027 );
+    }
+    30%{
+        background: linear-gradient(to right,rgb(5, 141, 182), #7998ff );
+    }
+    60%{
+        background: linear-gradient(to right,rgb(107, 107, 238), #f0b027 );
+        
+    }
+    80%{
+        background: linear-gradient(to right,rgb(142, 252, 237), #f0b027 );
+        
+    }
+    100%{
+        background: linear-gradient(to right,rgb(94, 181, 252), #f0b027 );
+
+    }
 }
 .header{
     display:flex;
@@ -1360,11 +1383,12 @@ a{
 .hs{
     display:flex;
     flex-direction: row;
-    background:#a57505;
+    /* background:#a57505; */
     justify-content: center;
     align-items:center;
     padding:2em 0;
     height: 100vh;
+    background-color: linear-gradient(to top,#a57505,blue);
 }
 .btn{
     padding:.5em 1em;
@@ -1589,6 +1613,7 @@ a{
 }
 .vision-div{
     background:#a57505;
+    background:linear-gradient(to right, #a57505,#dda729 );
     width:35%;
     padding:1em;
     display:flex;
@@ -2013,7 +2038,7 @@ and (max-device-width:1200px )
         display:flex;
         flex-direction: row;
         color:#000;
-        font-size: 1.4em;
+        font-size: 2em;
         background:#ac9561;
         padding:.5em;
         border-radius:50%;
@@ -2023,7 +2048,7 @@ and (max-device-width:1200px )
     .social-link{
         padding:1em 1em 0 0;
         color:#fff;
-        font-size:1.5em;
+        font-size:2em;
     }
     .btn-1{
         background:none;
@@ -2540,6 +2565,7 @@ and (-webkit-min-device-pixel-ratio :1)
         justify-content: center;
         align-items:center;
         padding:2em 0;
+        background-color: linear-gradient(to top,#a57505,#c08806);
         height: auto;
     }
     .btn{
@@ -2610,7 +2636,7 @@ and (-webkit-min-device-pixel-ratio :1)
     .social-link{
         padding:1em 1em 0 0;
         color:#fff;
-        font-size:1.5em;
+        font-size:2em;
     }
     .btn-1{
         background:none;
