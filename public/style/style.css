@@ -5,10 +5,10 @@
     font-family: Eras ITC;
 }
 .logo-img{
-    animation:logoanimate 2s ease-out alternate infinite;
+    animation:logoanimate 10s ease-out infinite;
 }
 h4{
-    animation: textcolorchange 2s ease-in alternate infinite;
+    animation:  textcolorchange 2s ease-in alternate infinite;
 }
 .tag-text{
     animation: textcolorchange 10s backwards ease-in alternate infinite;
@@ -43,10 +43,10 @@ h4{
 }
 @keyframes logoanimate {
     from{
-        width:80%;
+        transform: rotateZ(0deg);
     }
     to{
-        width:95%;
+        transform: rotateZ(360deg);
     }
 }
 .video{
@@ -173,7 +173,7 @@ a{
     /* background:#a57505; */
     justify-content: center;
     align-items:center;
-    padding:2em 0;
+    padding:1em 0;
     height: auto;
     flex-wrap: wrap-reverse;
     animation: textcolorchange 2s ease-in alternate infinite;
@@ -801,8 +801,10 @@ and (max-device-width:768px)
         /* background:#a57505; */
         justify-content: center;
         align-items:center;
-        padding:2em 0;
+        padding:1em 0;
         height: auto;
+        /* height: 100vh; */
+
         animation: textcolorchange 2s ease-in alternate infinite;
     }
     .btn{
@@ -1422,8 +1424,8 @@ a{
     /* background:#a57505; */
     justify-content: center;
     align-items:center;
-    padding:2em 0;
-    height: 100vh;
+    padding:1em 0;
+    height: auto;
     animation: textcolorchange 2s ease-in alternate infinite;
     background-color: linear-gradient(to top,#a57505,blue);
 }
@@ -1969,7 +1971,7 @@ and (max-device-width:1200px )
         justify-content: space-between;
         align-items: center;
         background:#210101;
-        padding:0 2em;
+        padding:1em;
         z-index: 3443434;
         color:#fff !important;
     }
@@ -2018,8 +2020,8 @@ and (max-device-width:1200px )
         /* background:#a57505; */
         justify-content: center;
         align-items:center;
-        padding:2em 0;
-        height: 100vh;
+        padding:1em 0;
+        height: auto;
         animation: textcolorchange 2s ease-in alternate infinite;
     }
     .btn{
@@ -2562,7 +2564,7 @@ and (-webkit-min-device-pixel-ratio :1)
         justify-content: space-between;
         align-items: center;
         background:#210101;
-        padding:1em 2em;
+        padding:1em;
         z-index: 3443434;
         color:#fff !important;
     }
@@ -2611,9 +2613,9 @@ and (-webkit-min-device-pixel-ratio :1)
         /* background:#a57505; */
         justify-content: center;
         align-items:center;
-        padding:2em 0;
+        padding:1em 0;
         background-color: linear-gradient(to top,#a57505,#c08806);
-        height: auto;
+        height: 100vh;
         animation: textcolorchange 2s ease-in alternate infinite;
     }
     .btn{
@@ -2652,7 +2654,7 @@ and (-webkit-min-device-pixel-ratio :1)
         text-align: left;
     }
     .sect1 > p{
-        font-size: 1em;
+        font-size: 2em;
         font-weight: lighter;
         line-height: 1.2em;
         margin:0 0 1em 0;
