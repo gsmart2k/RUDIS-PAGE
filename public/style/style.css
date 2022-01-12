@@ -145,7 +145,7 @@ a{
 .hs{
     display:flex;
     flex-direction: column;
-    background:#a57505;
+    /* background:#a57505; */
     justify-content: center;
     align-items:center;
     padding:2em 0;
@@ -769,7 +769,7 @@ and (max-device-width:768px)
     .hs{
         display:flex;
         flex-direction: row;
-        background:#a57505;
+        /* background:#a57505; */
         justify-content: center;
         align-items:center;
         padding:2em 0;
@@ -1978,7 +1978,7 @@ and (max-device-width:1200px )
     .hs{
         display:flex;
         flex-direction: row;
-        background:#a57505;
+        /* background:#a57505; */
         justify-content: center;
         align-items:center;
         padding:2em 0;
@@ -2567,7 +2567,7 @@ and (-webkit-min-device-pixel-ratio :1)
     .hs{
         display:flex;
         flex-direction: row;
-        background:#a57505;
+        /* background:#a57505; */
         justify-content: center;
         align-items:center;
         padding:2em 0;
