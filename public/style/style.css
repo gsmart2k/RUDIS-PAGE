@@ -4,6 +4,15 @@
     box-sizing: border-box;
     font-family: Eras ITC;
 }
+.logo-img{
+    animation:logoanimate 2s ease-out alternate infinite;
+}
+h4{
+    animation: textcolorchange 2s ease-in alternate infinite;
+}
+.tag-text{
+    animation: textcolorchange 10s backwards ease-in alternate infinite;
+}
 @keyframes gradientchange {
     10%{
         background: linear-gradient(to right,blue, #f0b027 );
@@ -22,6 +31,22 @@
     100%{
         background: linear-gradient(to right,rgb(94, 181, 252), #f0b027 );
 
+    }
+}
+@keyframes textcolorchange {
+    from{
+        color:#fff;
+    }
+    to{
+        color:#000;
+    }
+}
+@keyframes logoanimate {
+    from{
+        width:80%;
+    }
+    to{
+        width:95%;
     }
 }
 .video{
@@ -151,6 +176,7 @@ a{
     padding:2em 0;
     height: auto;
     flex-wrap: wrap-reverse;
+    animation: textcolorchange 2s ease-in alternate infinite;
 }
 .btn{
     padding:.5em 1em;
@@ -176,6 +202,7 @@ a{
     justify-content:center;
     align-items: center;
     width:90%;
+    animation: textcolorchange 2s ease-in alternate infinite;
 }
 .logo-img{
     width:93%;
@@ -183,6 +210,7 @@ a{
 .sect1 > h4{
     font-size: 4em;
     text-align:center;
+    color:#000;
 }
 .sect1 > p{
     font-size: 2em;
@@ -714,6 +742,7 @@ and (max-device-width:768px)
         width:100vw;
         align-items:center;
         color:#fff;
+        animation: textcolorchange 2s ease-in alternate infinite;
         animation: gradientchange 16s ease-in alternate infinite;
 
     }
@@ -774,6 +803,7 @@ and (max-device-width:768px)
         align-items:center;
         padding:2em 0;
         height: auto;
+        animation: textcolorchange 2s ease-in alternate infinite;
     }
     .btn{
         padding:.5em 1em;
@@ -801,6 +831,8 @@ and (max-device-width:768px)
         justify-content:flex-start;
         align-items: flex-start;
         width:60%;
+        animation: textcolorchange 2s ease-in alternate infinite;
+
     }
     .logo-img{
         width:100%;
@@ -1332,6 +1364,7 @@ and (min-device-width:769px )
     /* height:100vh; */
     align-items:center;
     color:#fff;
+    animation: textcolorchange 2s ease-in alternate infinite;
     animation: gradientchange 16s ease-in alternate infinite;
 }
 .header{
@@ -1391,6 +1424,7 @@ a{
     align-items:center;
     padding:2em 0;
     height: 100vh;
+    animation: textcolorchange 2s ease-in alternate infinite;
     background-color: linear-gradient(to top,#a57505,blue);
 }
 .btn{
@@ -1419,6 +1453,8 @@ a{
     justify-content:flex-start;
     align-items: flex-start;
     width:60%;
+    animation: textcolorchange 2s ease-in alternate infinite;
+
 }
 .logo-img{
     width:90%;
@@ -1924,6 +1960,7 @@ and (max-device-width:1200px )
         /* height:100vh; */
         align-items:center;
         color:#fff;
+        animation: textcolorchange 2s ease-in alternate infinite;
         animation: gradientchange 16s ease-in alternate infinite;
     }
     .header{
@@ -1983,6 +2020,7 @@ and (max-device-width:1200px )
         align-items:center;
         padding:2em 0;
         height: 100vh;
+        animation: textcolorchange 2s ease-in alternate infinite;
     }
     .btn{
         padding:.5em 1em;
@@ -2010,6 +2048,8 @@ and (max-device-width:1200px )
         justify-content:flex-start;
         align-items: flex-start;
         width:60%;
+        animation: textcolorchange 2s ease-in alternate infinite;
+
     }
     .logo-img{
         width:90%;
@@ -2512,6 +2552,7 @@ and (-webkit-min-device-pixel-ratio :1)
         /* height:100vh; */
         align-items:center;
         color:#fff;
+        animation: textcolorchange 2s ease-in alternate infinite;
         animation: gradientchange 16s ease-in alternate infinite;
 
     }
@@ -2573,6 +2614,7 @@ and (-webkit-min-device-pixel-ratio :1)
         padding:2em 0;
         background-color: linear-gradient(to top,#a57505,#c08806);
         height: auto;
+        animation: textcolorchange 2s ease-in alternate infinite;
     }
     .btn{
         padding:.5em 1em;
@@ -2600,6 +2642,7 @@ and (-webkit-min-device-pixel-ratio :1)
         justify-content:flex-start;
         align-items: flex-start;
         width:60%;
+        animation: textcolorchange 2s ease-in alternate infinite;
     }
     .logo-img{
         width:100%;
