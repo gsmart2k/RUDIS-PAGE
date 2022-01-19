@@ -23,17 +23,9 @@ h4 {
 }
 @keyframes gradientchange {
   10% {
-    background: linear-gradient(to right, blue, #f0b027);
+    background: linear-gradient(to right, blue, #57400e);
   }
-  30% {
-    background: linear-gradient(to right, rgb(5, 141, 182), #7998ff);
-  }
-  60% {
-    background: linear-gradient(to right, rgb(107, 107, 238), #f0b027);
-  }
-  80% {
-    background: linear-gradient(to right, rgb(142, 252, 237), #f0b027);
-  }
+
   100% {
     background: linear-gradient(to right, rgb(94, 181, 252), #f0b027);
   }
@@ -515,6 +507,7 @@ h4 {
   .buy-btn {
     padding: 1em;
     background: #a57505;
+    background: linear-gradient(to right, #a77b02, #96025d);
     margin: 2em 0 0 0;
     outline: none;
     border: none;
@@ -1108,6 +1101,7 @@ h4 {
   .buy-btn {
     padding: 1em;
     background: #a57505;
+    background: linear-gradient(to right, #a77b02, #96025d);
     margin: 2em 0 0 0;
     outline: none;
     border: none;
@@ -1718,6 +1712,7 @@ h4 {
   .buy-btn {
     padding: 1em;
     background: #a57505;
+    background: linear-gradient(to right, #a77b02, #96025d);
     margin: 2em 0 0 0;
     outline: none;
     border: none;
@@ -2304,6 +2299,7 @@ h4 {
   .buy-btn {
     padding: 1em;
     background: #a57505;
+    background: linear-gradient(to right, #720303, #1bb460);
     margin: 2em 0 0 0;
     outline: none;
     border: none;
@@ -2889,7 +2885,7 @@ h4 {
   }
   .buy-btn {
     padding: 1em;
-    background: #a57505;
+    background: linear-gradient(to right, #a77b02, #96025d);
     margin: 2em 0 0 0;
     outline: none;
     border: none;
