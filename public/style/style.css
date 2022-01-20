@@ -291,6 +291,10 @@ h4 {
     align-self: center;
     margin: 0.5em;
   }
+  .swords > video {
+    width: 90%;
+    margin: 1em;
+  }
   .cards {
     display: flex;
     flex-direction: column;
@@ -911,6 +915,10 @@ h4 {
     width: 30%;
     margin: 1em auto;
   }
+  .swords > video {
+    width: 30%;
+    margin: 1em;
+  }
   .cards {
     display: flex;
     flex-direction: row;
@@ -1519,6 +1527,10 @@ h4 {
     justify-self: center;
     align-self: center;
   }
+  .swords > video {
+    width: 30%;
+    margin: 1em;
+  }
   .swords > img {
     width: 30%;
     margin: 1em;
@@ -2106,8 +2118,13 @@ h4 {
     flex-direction: row;
     justify-self: center;
     align-self: center;
+    width: 100%;
   }
   .swords > img {
+    width: 30%;
+    margin: 1em;
+  }
+  .swords > video {
     width: 30%;
     margin: 1em;
   }
@@ -2696,6 +2713,10 @@ h4 {
   .swords > img {
     width: 30%;
     margin: 1em auto;
+  }
+  .swords > video {
+    width: 30%;
+    margin: 1em;
   }
   .cards {
     display: flex;
