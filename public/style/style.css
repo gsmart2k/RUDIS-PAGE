@@ -2703,6 +2703,7 @@ h4 {
     margin: 2em 0 2em 0;
     color: #fff;
     font-weight: bolder;
+    font-size: 2em;
   }
   .swords {
     display: flex;
@@ -2721,7 +2722,7 @@ h4 {
   .cards {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     padding: 4em;
     width: 100%;
@@ -2741,6 +2742,7 @@ h4 {
     flex-direction: row;
     width: 45%;
     align-self: center;
+    font-size: 2em;
   }
   .carousel {
     justify-self: flex-start;
@@ -2751,6 +2753,7 @@ h4 {
   }
   .list {
     display: block;
+    font-size: 1.3em;
   }
   .cards > div {
     display: flex;
@@ -2812,17 +2815,18 @@ h4 {
     margin: 0 0 0.5em 0;
     color: #000;
     text-align: center;
+    font-size: 2.2em;
   }
   .rudis-token > h4 {
     margin: 0 0 0.5em 0;
-    font-size: 1.2em;
+    font-size: 2.8em;
     color: #000;
   }
   .rudis-token > p {
     line-height: 1.5em;
     text-align: center;
     color: #000;
-    font-size: 1.3em;
+    font-size: 1.6em;
   }
   .vision-div {
     /* background: #a57505; */
@@ -2837,14 +2841,16 @@ h4 {
   .vision-div > h3 {
     margin: 0 0 1em 0;
     text-align: center;
+    font-size: 2em;
   }
   .vision-div > h4 {
     margin: 0 0 0.5em 0;
-    font-size: 1.4em;
+    font-size: 2.4em;
   }
   .vision-div > p {
     text-align: center;
     line-height: 2em;
+    font-size: 1.7em;
   }
   .third-sect-2 {
     padding: 1em;
@@ -2902,7 +2908,7 @@ h4 {
   }
   .fourth-sect > p {
     color: #fff;
-    font-size: 1.2em;
+    font-size: 2em;
   }
   .buy-btn {
     padding: 1em;
@@ -2911,7 +2917,7 @@ h4 {
     outline: none;
     border: none;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 2em;
   }
   .copy-box {
     display: flex;
