@@ -800,7 +800,7 @@ h4 {
     /* background:#a57505; */
     justify-content: center;
     align-items: center;
-    padding: 1em 0;
+    padding: 5em 0 1em 0;
     height: auto;
     /* height: 100vh; */
 
@@ -901,7 +901,7 @@ h4 {
     justify-content: center;
     align-items: center;
     /* background: #210101; */
-    height: 105em;
+    /* height: 105em; */
     background: linear-gradient(to bottom, #210101, rgb(32, 2, 20));
     width: 100vw;
     color: #fff;
@@ -1292,7 +1292,7 @@ h4 {
     text-align: center;
   }
   .swordphase {
-    width: 25%;
+    width: 50%;
     margin: 1em 0;
   }
   /* <!-- <div class="third-sect-2">
