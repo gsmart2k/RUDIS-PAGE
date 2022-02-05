@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: Eras ITC;
 }
+.hs {
+  margin: 5em 0 0 0;
+}
 .header {
   position: fixed;
   right: 0;
@@ -2605,7 +2608,6 @@ h4 {
     padding: 1em 0;
     background-color: linear-gradient(to top, #a57505, #c08806);
     height: auto;
-    margin: 2em 0 0 0;
     animation: textcolorchange 2s ease-in alternate infinite;
   }
   .btn {
